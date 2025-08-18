@@ -1,0 +1,9 @@
+<resources>
+    <string name="Judul">BIODATA DIRI</string>
+    <string name="app_name">Project2-Biodata</string>
+    <string name="Nama">Nama : BAYU ADI SETYAWAN</string>
+    <string name="Kelas">Kelas : XI PPLG-A</string>
+    <string name="TTL">TTL : SKA, 12 MEI 2009</string>
+    <string name="MOTTO">MOTIVASI : AL-INSYIRAH (5)</string>
+    <string name="NEXT">LANJUT</string>
+</resources>

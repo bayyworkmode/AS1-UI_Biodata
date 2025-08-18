@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/Judul"
+            android:textSize="30sp"
+            android:gravity="end"
+            android:paddingEnd="12dp"
+            android:textColor="@color/blue1"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="14dp"
+            android:background="@color/white" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:src="@drawable/logosmkpplg"
+            android:layout_marginTop="8dp" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:outlineProvider="background"
+        android:src="@drawable/fotobayuby" />
+
+    <TextView
+        android:layout_width= "345dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/blue1"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="6dp"
+        android:text="@string/Nama"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@color/blue1"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Kelas"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/TTL"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/blue1"
+        android:fontFamily="sans-serif-medium"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/MOTTO"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/blue1"
+        android:fontFamily="sans-serif-medium"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/NEXT"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="20dp"/>
+
+</LinearLayout>
